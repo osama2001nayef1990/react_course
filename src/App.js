@@ -1,24 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Header from './Header';
+import Post from './post';
+import Button from './button';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header/>
+      <div style={{margin: "10px", display: 'flex',justifyContent: 'center',}}>
+        <div style={{width: '500px',}}>
+          <Post/>
+          <Post/>
+          <Post/>
+          <Post/>
+          <Post/>
+          <Post/>
+          <Post/>
+        </div>
+        <div style={{margin: '10px',width: '200px',height: '300px',padding: '10px', textAlign: 'center', border: '4px solid #017576'}}>
+          <Button/>
+          <Button/>
+          <Button/>
+          <Button/>
+          <Button/>
+          <Button/>
+          <Button/>
+          <Button/>
+          <Button/>
+          <Button/>
+          <Button/>
+          
+          
+
+        </div>
+      </div>
+    </>
   );
 }
 
