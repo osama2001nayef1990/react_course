@@ -1,10 +1,10 @@
 import './post.css';
-export default function Post(){
+export default function Post({title='Default Post',bodey='Hello World!!'}){
     return (
         <div className='post'>
-            <h2>First Post</h2>
+            <h2>{title}</h2>
             <hr/>
-            <p>Hello World!!</p>
+            <p>{bodey}</p>
         </div>
     )
 }

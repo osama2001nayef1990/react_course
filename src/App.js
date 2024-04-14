@@ -8,17 +8,19 @@ function App() {
       <Header/>
       <div style={{margin: "10px", display: 'flex',justifyContent: 'center',}}>
         <div style={{width: '500px',}}>
-          <Post/>
-          <Post/>
+          <Post title='Tarmeez Academy' bodey="This is the first paragraph"/>
+          <Post title='Seconed' bodey="Seconed paragraph"/>
           <Post/>
           <Post/>
           <Post/>
           <Post/>
           <Post/>
         </div>
-        <div style={{margin: '10px',width: '200px',height: '300px',padding: '10px', textAlign: 'center', border: '4px solid #017576'}}>
+        <div style={{margin: '10px',width: '200px',padding: '10px', textAlign: 'center', border: '4px solid #017576'}}>
           <Button/>
-          <Button/>
+          <Button>
+            <img src='logo192.png' style={{width: '100px'}} alt=''></img>
+          </Button>
           <Button/>
           <Button/>
           <Button/>
