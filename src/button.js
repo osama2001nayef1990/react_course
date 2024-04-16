@@ -5,6 +5,5 @@ export default function Button({children}){
             <button>Tag Button {children}</button>
             
         </>
-
     );
 }
